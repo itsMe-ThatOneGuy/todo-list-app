@@ -1,0 +1,24 @@
+{
+  "name": "todo-list-app",
+  "version": "1.0.0",
+  "description": "todo list app ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itsMe-ThatOneGuy/todo-list-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itsMe-ThatOneGuy/todo-list-app/issues"
+  },
+  "homepage": "https://github.com/itsMe-ThatOneGuy/todo-list-app#readme",
+  "devDependencies": {
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0"
+  }
+}
