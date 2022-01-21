@@ -1,8 +1,6 @@
-export default class {
-    constructor(name, dueDate, priority, description) {
-        this.name = name,
-        this.dueDate = dueDate,
-        this.priority = priority,
-        this.description = description
-    }
+
+export default function Todo (name, dueDate, description) {
+    this.name = name;
+    this.dueDate = dueDate;
+    this.description = description;
 }
